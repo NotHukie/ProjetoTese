@@ -12,7 +12,7 @@ public class MenuButtons : MonoBehaviour
     }
     public void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             SceneManager.LoadScene(0);
         }
@@ -28,5 +28,9 @@ public class MenuButtons : MonoBehaviour
     public void Cisterna()
     {
         SceneManager.LoadScene(3);
+    }
+    public void TeresaMacedo()
+    {
+        SceneManager.LoadScene(4);
     }
 }
