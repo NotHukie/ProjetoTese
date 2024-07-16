@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb82a87a4954a947923856a12b49b38, type: 3}
   m_Name: WaterINC
   m_EditorClassIdentifier: 
-  lowFreqAbsorption: 0.329
-  midFreqAbsorption: 0.07
-  highFreqAbsorption: 0.06
+  lowFreqAbsorption: 0.491
+  midFreqAbsorption: 0.506
+  highFreqAbsorption: 0.537
   scattering: 0.05
   lowFreqTransmission: 0.07
   midFreqTransmission: 0.014
