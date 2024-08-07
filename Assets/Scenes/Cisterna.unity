@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 498009292}
   - component: {fileID: 498009291}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: "Gotas de \xE1gua"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,12 +149,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498009289}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.01104, y: 0, z: 0.008655}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.000000059604645, y: 0.7071068, z: -0.7071068, w: 0.000000029802322}
+  m_LocalPosition: {x: -22.940456, y: 11.20853, z: 41.20032}
+  m_LocalScale: {x: 2650.545, y: 471.26318, z: 794.49524}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1568139460058436579}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &498009291
 MonoBehaviour:
@@ -252,9 +252,9 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
@@ -1282,8 +1282,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.6983684, z: 13.6062}
   m_LocalScale: {x: 227.649, y: 157.0877, z: 299.4632}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 498009290}
+  m_Children: []
   m_Father: {fileID: 5749503044582598361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1711813854478029606
@@ -2540,3 +2539,4 @@ SceneRoots:
   - {fileID: 8255943517306220140}
   - {fileID: 5749503044582598361}
   - {fileID: 1138983043}
+  - {fileID: 498009290}
